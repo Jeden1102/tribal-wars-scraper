@@ -1,0 +1,38 @@
+{
+    "name": "Scraper",
+    "version": "1.0.0",
+    "description": "Tribal wars scraper",
+    "main": "dist/index.js",
+    "scripts": {
+      "dev": "vite build && node dist/index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "app-root-path": "^3.0.0",
+      "axios": "^1.8.1",
+      "chrome-cookies-secure": "^3.0.0",
+      "cli-progress": "^3.10.0",
+      "delay": "^6.0.0",
+      "dotenv": "^16.4.7",
+      "fs-extra": "^11.3.0",
+      "puppeteer": "^24.3.0",
+      "puppeteer-core": "^24.3.0",
+      "puppeteer-extra": "^3.3.6",
+      "puppeteer-extra-plugin-stealth": "^2.11.2",
+      "typescript": "^5.8.2",
+      "undici": "^6.21.1",
+      "user-agents": "^1.1.467",
+      "winston": "^3.7.2"
+    },
+    "devDependencies": {
+      "eslint": "^9.21.0",
+      "eslint-config-prettier": "^10.0.2",
+      "prettier": "^3.5.3",
+      "vite": "^5.2.0",
+      "@types/node": "^20.11.0",
+      "@types/puppeteer": "^21.9.0",
+      "@types/dotenv": "^8.2.0"
+    }
+  }
