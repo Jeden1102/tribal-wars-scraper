@@ -1,0 +1,10 @@
+BASE:
+attack send - choose units / all units / template
+help send - choose units / all units / template
+
+MODULES:
+- attack sender (wysylka ataków z rozpiski)
+- opisywacza ataków ()
+- nocny opiekun konta (opisuje ataki, gdy gruby, sprawdza ile deffa we wsi, informuje sasiadow),
+- asystent po przejeciu wioski (lista rzeczy do wykonania po przejeciu wsi)
+- fejk master
